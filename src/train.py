@@ -20,7 +20,7 @@ model = HybridModel(
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 criterion = nn.CrossEntropyLoss()
 
-# Fake input data
+
 cnn_input = torch.randn(batch_size, cnn_input_dim)
 transformer_input = torch.randn(batch_size, sequence_length, transformer_input_dim)
 labels = torch.randint(0, 2, (batch_size,))
