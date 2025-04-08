@@ -22,5 +22,3 @@ Install the required packages with:
 pip install -r requirements.txt
 ```
 
-## License
-This project is open-source and available under the MIT License.
